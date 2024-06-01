@@ -4,7 +4,7 @@ from tkinter import messagebox
 from sha512 import sha512
 
 
-# Функция определения простоты числа, используя алгоримт Миллера-Рабина
+# Функция определения простоты числа, используя алгоритм Миллера-Рабина
 def is_prime_miller_rabin(n, k=5):
     if n <= 1:
         return False
